@@ -2,11 +2,12 @@
 
 #include "ofMain.h"
 #include "ofxOsc.h"
-#include "KinectCV.hpp"
-#include "SecondScreen.hpp"
+#include "KinectCV.h"
+#include "SecondScreen.h"
 #include "Base.h"
 #include "tkm001.h"
 #include "Blank.h"
+#include "RippleScene.h"
 
 class MainScreen : public ofBaseApp{
 
@@ -55,6 +56,10 @@ inline void MainScreen :: DisplaySetup(void){
   ofBackground(0);
 
   ofSetBackgroundAuto(true);
+
+  ofFill();
+  ofSetLineWidth(1);
+  ofEnableBlendMode(OF_BLENDMODE_ALPHA);
 
 }
 

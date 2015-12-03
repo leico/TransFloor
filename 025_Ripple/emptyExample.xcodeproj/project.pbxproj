@@ -59,6 +59,7 @@
 		E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E077E715D3B6510020DFD4 /* QTKit.framework */; };
 		E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F985F515E0DE99003869B5 /* Accelerate.framework */; };
 		FC8E2B941C0C3C470053DE1B /* secondScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC8E2B921C0C3C470053DE1B /* secondScreen.cpp */; };
+		FCEB094E1C101F9A00625F12 /* Change.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCEB094D1C101F9A00625F12 /* Change.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -253,7 +254,6 @@
 		56C09BF61C071C8300E9FDBD /* ofxOscReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOscReceiver.h; sourceTree = "<group>"; };
 		56C09BF71C071C8300E9FDBD /* ofxOscSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxOscSender.cpp; sourceTree = "<group>"; };
 		56C09BF81C071C8300E9FDBD /* ofxOscSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOscSender.h; sourceTree = "<group>"; };
-		56C09C0C1C074AA100E9FDBD /* kinectCV.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = kinectCV.hpp; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -280,9 +280,13 @@
 		FC04C5A41C0DC130000676E6 /* tkm001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tkm001.h; sourceTree = "<group>"; };
 		FC04C5A51C0DC181000676E6 /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
 		FC8E2B921C0C3C470053DE1B /* secondScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = secondScreen.cpp; sourceTree = "<group>"; };
-		FC8E2B931C0C3C470053DE1B /* SecondScreen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SecondScreen.hpp; sourceTree = "<group>"; };
 		FCEB09471C1011A300625F12 /* Blank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blank.h; sourceTree = "<group>"; };
 		FCEB09491C101E4900625F12 /* Ripple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ripple.h; sourceTree = "<group>"; };
+		FCEB094A1C101F8C00625F12 /* kinectCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kinectCV.h; sourceTree = "<group>"; };
+		FCEB094B1C101F8C00625F12 /* SecondScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondScreen.h; sourceTree = "<group>"; };
+		FCEB094C1C101F9A00625F12 /* Change.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Change.h; sourceTree = "<group>"; };
+		FCEB094D1C101F9A00625F12 /* Change.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Change.mm; sourceTree = "<group>"; };
+		FCEB09501C102D9C00625F12 /* RippleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleScene.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -911,12 +915,15 @@
 				E4B69E1E0A3A1BDC003C02F2 /* MainScreen.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* MainScreen.h */,
 				FC8E2B921C0C3C470053DE1B /* secondScreen.cpp */,
-				FC8E2B931C0C3C470053DE1B /* SecondScreen.hpp */,
-				56C09C0C1C074AA100E9FDBD /* kinectCV.hpp */,
+				FCEB094A1C101F8C00625F12 /* kinectCV.h */,
+				FCEB094B1C101F8C00625F12 /* SecondScreen.h */,
 				FC04C5A41C0DC130000676E6 /* tkm001.h */,
 				FC04C5A51C0DC181000676E6 /* Base.h */,
 				FCEB09471C1011A300625F12 /* Blank.h */,
 				FCEB09491C101E4900625F12 /* Ripple.h */,
+				FCEB09501C102D9C00625F12 /* RippleScene.h */,
+				FCEB094C1C101F9A00625F12 /* Change.h */,
+				FCEB094D1C101F9A00625F12 /* Change.mm */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -1034,6 +1041,7 @@
 				561FB2B51BFC894F00191566 /* ofxCvGrayscaleImage.cpp in Sources */,
 				561FB22D1BFC855E00191566 /* registration.c in Sources */,
 				561FB2331BFC855E00191566 /* ofxKinect.cpp in Sources */,
+				FCEB094E1C101F9A00625F12 /* Change.mm in Sources */,
 				561FB2B61BFC894F00191566 /* ofxCvHaarFinder.cpp in Sources */,
 				561FB2281BFC855E00191566 /* cameras.c in Sources */,
 				56C09C021C071C8300E9FDBD /* ofxOscBundle.cpp in Sources */,

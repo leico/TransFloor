@@ -64,9 +64,10 @@ void MainScreen::update(){
     if(m.getAddress() == "/scene"){
       switch( m.getArgAsInt32(0) ){
 
-        case 0  : delete basedraw; basedraw = new Blank (); break; //Blank
-        case 1  : delete basedraw; basedraw = new tkm001(); break; //track circles
-        default : continue;                                 break; //nomatch
+        case 0  : delete basedraw; basedraw = new Blank ();      break; //Blank
+        case 1  : delete basedraw; basedraw = new tkm001();      break; //track circles
+        case 2  : delete basedraw; basedraw = new RippleScene(); break; //Ripples
+        default : continue;                                      break; //nomatch
       }
 
       DisplaySetup();
