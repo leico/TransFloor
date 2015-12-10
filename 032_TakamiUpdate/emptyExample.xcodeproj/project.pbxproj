@@ -283,6 +283,8 @@
 		FC0CA1761C15C0D30038B1CE /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
 		FC0CA1771C15C0D30038B1CE /* takami.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = takami.h; sourceTree = "<group>"; };
 		FC0CA1791C15C1B40038B1CE /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
+		FC8250561C1723AC0021A7DE /* tkmOTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tkmOTO.h; sourceTree = "<group>"; };
+		FC8250571C1723C50021A7DE /* TransFloor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransFloor.h; sourceTree = "<group>"; };
 		FC8E2B921C0C3C470053DE1B /* secondScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = secondScreen.cpp; sourceTree = "<group>"; };
 		FC8F460A1C15C8D400B536C7 /* Gushi01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gushi01.h; sourceTree = "<group>"; };
 		FCB987E51C10444700EB54BC /* Relation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Relation.h; sourceTree = "<group>"; };
@@ -919,6 +921,7 @@
 			isa = PBXGroup;
 			children = (
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				FC8250571C1723C50021A7DE /* TransFloor.h */,
 				E4B69E1E0A3A1BDC003C02F2 /* MainScreen.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* MainScreen.h */,
 				FC8E2B921C0C3C470053DE1B /* secondScreen.cpp */,
@@ -933,6 +936,7 @@
 				FCEB094D1C101F9A00625F12 /* Change.mm */,
 				FCB987E91C10539C00EB54BC /* Gravity.h */,
 				FC8F460A1C15C8D400B536C7 /* Gushi01.h */,
+				FC8250561C1723AC0021A7DE /* tkmOTO.h */,
 				FC0CA1781C15C0D90038B1CE /* Escape */,
 			);
 			path = src;

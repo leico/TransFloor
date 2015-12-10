@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 707.0 ],
+		"rect" : [ 34.0, 79.0, 716.0, 527.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 98.0, 482.0, 803.0, 294.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 407.0, 801.0, 320.0 ],
+					"presentation_rect" : [ 367.0, 46.0, 341.0, 385.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -67,7 +67,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 98.0, 455.0, 93.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 381.0, 93.0, 20.0 ],
+					"presentation_rect" : [ 367.0, 24.0, 93.0, 20.0 ],
 					"style" : "",
 					"text" : "Second Screen"
 				}
@@ -91,7 +91,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 121.0, 803.0, 294.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 46.0, 801.0, 333.0 ],
+					"presentation_rect" : [ 18.0, 46.0, 344.0, 385.0 ],
 					"viewvisibility" : 1
 				}
 
