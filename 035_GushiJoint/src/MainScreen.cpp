@@ -6,10 +6,10 @@ const std :: string MainScreen :: prefix("/first");
 //--------------------------------------------------------------
 void MainScreen::setup(){
     
-  ofSetLogLevel(OF_LOG_WARNING);
+  ofSetLogLevel(OF_LOG_VERBOSE);
 
   ofxKinect :: listDevices();
-  kinectcv.setup("A00364800479053A");
+  kinectcv.setup("A00363902566052A");
 
   receiver.setup(12345);
 

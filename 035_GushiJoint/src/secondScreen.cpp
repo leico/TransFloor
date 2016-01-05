@@ -9,7 +9,7 @@ void SecondScreen::setup(){
   ofSetLogLevel(OF_LOG_WARNING);
   
   ofxKinect :: listDevices();
-  kinectcv.setup("A00363A02391053A");
+  kinectcv.setup("A00363907873053A");
   
   Debug(false);
   

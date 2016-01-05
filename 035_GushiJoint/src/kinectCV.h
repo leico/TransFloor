@@ -232,6 +232,7 @@ inline void KinectCV :: setup (const std :: string &serial){
 
   BinaryDisplay(false);
 
+  ofxKinect :: listDevices();
 
   kinect.init();
   kinect.open(serial);
